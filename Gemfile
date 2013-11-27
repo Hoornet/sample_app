@@ -7,6 +7,7 @@ gem 'rails', '3.2.15'
 
 group :test, :development do
   gem 'sqlite3'
+  gem 'rspec-rails'
 end
 
 group :production do
@@ -14,6 +15,9 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :test do
+  gem'capybara'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
