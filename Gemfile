@@ -7,7 +7,8 @@ gem 'rails', '3.2.15'
 
 group :test, :development do
   gem 'sqlite3'
-  gem 'rspec-rails'
+  #gem 'rspec-rails'
+  gem 'rspec-rails', '2.9.0'
 end
 
 group :production do
@@ -16,7 +17,7 @@ group :production do
 end
 
 group :test do
-  gem'capybara'
+  gem 'capybara', '1.1.2'
 end
 
 # Gems used only for assets and not required
